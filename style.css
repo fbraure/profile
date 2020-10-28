@@ -1,0 +1,68 @@
+@import("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+a{
+  text-decoration: none;
+  color:rgb(130, 130, 130); 
+}
+a:hover{
+  color:rgb(230, 230, 230); 
+}
+body{
+  background-color: rgb(227, 232, 250); ;
+  font-family: 'Marcellus', serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.container{
+  margin: 10px auto;
+  width: 700px;
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+h1, h2{
+  color: rgb(95, 95, 236);
+  font-weight: bold;
+}
+h1{
+  font-size: 30;
+  color: rgb(76, 76, 165);
+}
+h2{
+  font-size: 24;
+  color: rgb(95, 95, 236);
+}
+img{
+  width: 200px;
+}
+ul{
+  list-style: none;
+}
+li{
+  display: inline-block;
+}
+.border-radius-8{
+  border-radius: 8px;
+}
+.card{
+  padding: 20px;
+}
+.card-white{
+  background: white;
+  border: 1px solid lightgrey;
+}
+.margin-vertical-10{
+  margin-top : 10px;
+  margin-bottom : 10px;
+}
+.padding-lateral-10 > li{
+  padding-left : 10px;
+  padding-right : 10px;
+}
